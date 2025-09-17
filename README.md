@@ -29,7 +29,7 @@ index=auth_logs status=FAILED
 | stats count by username
 | sort -count
 ```
-![Failed by user](screenshots/failed_logins_by_user.png)
+![Failed by user](screenshots/username.png)
 
 **Failed logins by IP**
 ```spl
@@ -37,14 +37,14 @@ index=auth_logs status=FAILED
 | stats count by source_ip
 | sort -count
 ```
-![Failed by IP](screenshots/failed_logins_by_ip.png)
+![Failed by IP](screenshots/IP.png)
 
 **Login attempts over time**
 ```spl
 index=auth_logs
 | timechart count by status
 ```
-![Timechart](screenshots/timechart_logins.png)
+![Timechart](screenshots/timechart count.png)
 
 ---
 
@@ -71,17 +71,10 @@ index=auth_logs status=FAILED
 - Action: Send email
 
 Screenshots:
-![Alert Query](screenshots/alert_query.png)
+![Alert Query](screenshots/alert query.png)
 ![Alert Config](screenshots/alert_config.png)
-![Alert Summary](screenshots/alert_summary.png)
+![Alert Summary](screenshots/alert_query.png)
 
----
-
-## 🖼️ Extra Evidence
-- screenshots/raw_events.png
-- screenshots/raw_events_2.png
-- screenshots/timechart_table.png
-- screenshots/raw_events_3.png
 
 ---
 
