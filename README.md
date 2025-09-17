@@ -55,7 +55,7 @@ index=auth_logs
 
 ![Dashboard](screenshots/dashboard.png)
 
-📄 Full dashboard export: `auth_log-2025-09-17.pdf` (included).
+📄 Full dashboard export: ![Dashboard](auth_log-2025-09-17.pdf) (included).
 
 ---
 
