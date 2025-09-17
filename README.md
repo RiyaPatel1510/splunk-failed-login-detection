@@ -44,7 +44,7 @@ index=auth_logs status=FAILED
 index=auth_logs
 | timechart count by status
 ```
-![Timechart](screenshots/timechart count.png)
+![Timechart](screenshots/timechart_count.png)
 
 ---
 
@@ -71,7 +71,7 @@ index=auth_logs status=FAILED
 - Action: Send email
 
 Screenshots:
-![Alert Query](screenshots/alert query.png)
+![Alert Query](screenshots/alertquery.png)
 ![Alert Config](screenshots/alert_config.png)
 ![Alert Summary](screenshots/alert_query.png)
 
